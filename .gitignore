@@ -1,0 +1,4 @@
+.history
+.vscode
+server/build
+go.sum
