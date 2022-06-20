@@ -19,7 +19,8 @@ func main() {
 	config, err := appconfig.ParseConfig()
 
 	if err != nil {
-		panic(err)
+		log.Println("No config found starting on the port 3005")
+		config.WebPort = 3005
 	}
 	srv := server.NewServer(config)
 	os.Setenv("JSON_S3_SERVER_PORT", strconv.Itoa(config.WebPort))
