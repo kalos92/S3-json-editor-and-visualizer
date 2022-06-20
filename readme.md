@@ -9,7 +9,7 @@ You can modify either RFC compliant JSON or Athena compliant JSON (one line per 
 - Go into server/build/index.html and modify as follows:
 
 FROM:
-```
+
 ```
 <script type="module" crossorigin src="/assets/index.cbe63ed5.js"></script>
     <link rel="stylesheet" href="/assets/index.8050d0fe.css">
